@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(130deg, rgb(95, 11, 32), rgb(150, 89, 20))
+}
+
+#microphone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 span {
+    color: rgb(235, 0, 59);
+    font-weight: 500;
+}
+
+#start-recording,
+#stop-recording {
+    margin: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#transcription {
+    width: 600px;
+    height: 300px;
+    background: rgb(95, 11, 32);
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* #transcription img {
+    width: 25px;
+        position: absolute;
+        bottom: 20px;
+        top: 20px;
+        right: 15px;
+        cursor: pointer;
+        display: block;
+} */
